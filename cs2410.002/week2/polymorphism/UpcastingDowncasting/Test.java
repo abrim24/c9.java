@@ -39,6 +39,9 @@ public class Test {
         Mammal m2 = (Mammal)new Cat();
         //same as above
         Mammal m3 = new Cat();
+        Animal a3 = m3;
+        //Mammal m4 = (Mammal)a3;
+        Cat c7 = (Cat)a3
         
         //7. downcasting must be done manually unless using polymorphism
         Cat c2 = new Cat();		 

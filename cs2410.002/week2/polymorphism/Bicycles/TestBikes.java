@@ -18,6 +18,6 @@ public class TestBikes {
     MountainBike mbike1, mbike2, mbike3;
     
     mbike1 = new MountainBike(20,10,1,"Dual");
-    mbike2 = new Bicycle(20, 10, 1);
+    //mbike2 = new Bicycle(20, 10, 1);
   }
 }
